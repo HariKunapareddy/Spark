@@ -1,0 +1,5 @@
+name,age,job,deptId,gender,salary
+Jorge,30,Developer,dep1,M,20000
+Bob,32,Developer,dep2,M,40000
+Jim,32,Developer,dep2,F,50000
+Tim,32,Developer,dep3,F,60000

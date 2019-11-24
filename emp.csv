@@ -1,0 +1,11 @@
+name,age,job,deptId,gender,salary,loc
+Jorge,30,Developer,dep1,M,120000,chennai
+Bob,32,Developer,dep2,M,410000,chennai
+Jim,32,Developer,dep2,F,501000,Hyd
+Tim,23,Developer,dep3,F,600200,Hyd
+klim,32,Developer,dep2,F,530000,ban
+fhhm,39,Developer,dep8,F,600040,mys
+Jdim,40,Developer,dep2,F,580000,Hyd
+Tiym,35,Developer,dep3,F,709000,Hyd
+ikliim,39,Developer,dep2,F,509000,ban
+ofhhm,32,Developer,dep8,F,600600,mys
