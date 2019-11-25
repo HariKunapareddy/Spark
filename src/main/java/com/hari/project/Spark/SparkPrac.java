@@ -1,5 +1,7 @@
 package com.hari.project.Spark;
 
+import java.util.Arrays;
+
 import org.apache.spark.SparkContext;
 import org.apache.spark.api.java.JavaRDD;
 import org.apache.spark.api.java.JavaSparkContext;
@@ -13,7 +15,7 @@ public class SparkPrac {
 			SparkContext sc=session.sparkContext();
 			JavaSparkContext context=new JavaSparkContext(sc);
 			JavaRDD<String> textRDD=context.textFile("people.txt");
-			textRDD.flatMap(record->record.split(" ")).collect();
+			textRDD.flatMap(record->Arrays.asList(record.split(" ")).iterator()).collect();
 		
 	}
 
